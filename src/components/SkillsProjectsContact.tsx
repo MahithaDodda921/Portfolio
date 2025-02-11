@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Code, Building, Server, Cloud, Github, Layout, Database, BarChart } from 'lucide-react';
+import { Code, Server, Cloud, Github, Layout, Database, BarChart } from 'lucide-react';
 
 const SkillsProjectsContact = () => {
   // Skills Data

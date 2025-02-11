@@ -4,9 +4,7 @@ import {
   Linkedin, 
   Github, 
   Mail, 
-  Twitter, 
   Code, 
-  Send, 
   Copyright 
 } from 'lucide-react';
 const handleEmailClick = (e) => {

@@ -1,5 +1,3 @@
-// src/Portfolio.jsx
-import React from 'react';
 import Navigation from './Navigation';
 import HeroSection from './HeroSection';
 import ExperienceEducation from './ExperienceEducation';

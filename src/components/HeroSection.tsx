@@ -1,6 +1,6 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
-import { Linkedin, Mail, Github, FileText, Code } from 'lucide-react';
+import { Linkedin, Mail, Github } from 'lucide-react';
 
 const HeroSection = () => {
   // Typewriter effect state

@@ -1,6 +1,6 @@
-import React, { useRef, useEffect } from 'react';
-import { motion, useInView } from 'framer-motion';
-import { Building, BookOpen, Calendar, MapPin, Award } from 'lucide-react';
+import React, { useRef } from 'react';
+import { motion} from 'framer-motion';
+import {  Calendar, MapPin } from 'lucide-react';
 
 const experienceData = [
   {
@@ -76,7 +76,6 @@ const TimelineCard = ({
   theme: 'blue' | 'purple'
 }) => {
   const ref = useRef(null);
-  const isInView = useInView(ref, { once: true });
 
   return (
     <div 
