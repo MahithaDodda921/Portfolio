@@ -8,7 +8,7 @@ const experienceData = [
     company: "George Mason University",
     period: "September 2024 – Present",
     location: "Fairfax, VA",
-    logo: "src/assets/gmlogo.png",
+    logo: "/assets/gmlogo.png",
     details: [
       "Developed a cloud-native analytics platform using Next.js, FastAPI, and PostgreSQL, boosting instructor productivity by 40%.",
       "Enhanced FastAPI and PostgreSQL infrastructure to process huge number of weekly student records with sub-second query response times.",
