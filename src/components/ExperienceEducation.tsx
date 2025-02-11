@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
-import { motion} from 'framer-motion';
-import {  Calendar, MapPin } from 'lucide-react';
+import { motion } from 'framer-motion';
+import { Calendar, MapPin } from 'lucide-react';
 import vitlogo from '../assets/vitlogo.png';
 import alfa from '../assets/alfahive_logo.jpeg';
 import gm from '../assets/gmlogo.png';
@@ -63,7 +63,7 @@ const educationData = [
     gpa: "3.9/4.00",
     location: "Amaravati, AP, India",
     logo: vitlogo,
-    courses: ["Data Structures", "Object Oriented Programming", "Database Systems", "Operating Systems", "Big Data Analysis", "Computer Networks "]
+    courses: ["Data Structures", "Object Oriented Programming", "Database Systems", "Operating Systems", "Big Data Analysis", "Computer Networks"]
   }
 ];
 
@@ -72,26 +72,21 @@ const TimelineCard = ({
   isEven,
   isLast,
   theme
-}: { 
-  children: React.ReactNode, 
-  isEven: boolean,
-  isLast?: boolean,
-  theme: 'blue' | 'purple'
 }) => {
   const ref = useRef(null);
 
   return (
     <div 
       ref={ref}
-      className={`relative pb-16 last:pb-0 group grid grid-cols-12 gap-4`}
+      className={`relative pb-16 last:pb-0 group grid grid-cols-1 md:grid-cols-12 gap-4`}
     >
       {/* Vertical Line */}
       {!isLast && (
         <div 
           className={`
-            absolute top-10 bottom-0 w-0.5 
+            absolute top-0 bottom-0 w-0.5 
             ${theme === 'blue' ? 'bg-blue-300' : 'bg-purple-300'} 
-            left-1/2 transform -translate-x-1/2
+            left-4 md:left-1/2 transform md:-translate-x-1/2
             group-last:hidden
           `}
         />
@@ -100,7 +95,7 @@ const TimelineCard = ({
       {/* Timeline Dot */}
       <div 
         className={`
-          absolute top-4 left-1/2 transform -translate-x-1/2 
+          absolute top-4 left-4 md:left-1/2 transform md:-translate-x-1/2 
           w-8 h-8 rounded-full z-10 
           border-4 border-white
           ${theme === 'blue' ? 'bg-blue-500' : 'bg-purple-500'}
@@ -109,11 +104,11 @@ const TimelineCard = ({
 
       {/* Card Container */}
       <motion.div 
-        initial={{ opacity: 0, x: isEven ? 50 : -50 }}
-        whileInView={{ opacity: 1, x: 0 }}
+        initial={{ opacity: 0, x: 0, y: 50 }}
+        whileInView={{ opacity: 1, x: 0, y: 0 }}
         transition={{ duration: 0.5 }}
         className={`
-          col-span-12 md:col-span-6 
+          col-span-1 md:col-span-6 pl-16 md:pl-0
           ${isEven ? 'md:col-start-7' : 'md:col-end-7'}
         `}
       >
@@ -168,7 +163,6 @@ const ExperienceCard = ({ experience }) => {
   );
 };
 
-// Modify EducationCard similarly
 const EducationCard = ({ education }) => {
   return (
     <div className="bg-white rounded-lg shadow-lg p-6 border border-purple-100 flex flex-col">
@@ -284,4 +278,5 @@ const ExperienceEducation = () => {
     </div>
   );
 };
+
 export default ExperienceEducation;
