@@ -1,6 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { Linkedin, Mail, Github } from 'lucide-react';
+import myImage from '../assets/me.jpg';
 
 const HeroSection = () => {
   // Typewriter effect state
@@ -175,7 +176,7 @@ const HeroSection = () => {
         >
           <div className="w-32 h-32 md:w-40 md:h-40 rounded-full overflow-hidden border-4 border-white shadow-lg">
             <img 
-              src="/assets/me.jpg"
+              src={myImage}
               alt="Mahitha Dodda"
               className="w-full h-full object-cover transform hover:scale-110 transition-transform duration-300"
             />

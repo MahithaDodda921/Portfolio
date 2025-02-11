@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import { motion } from 'framer-motion';
 import { Code, Server, Cloud, Github, Layout, Database, BarChart } from 'lucide-react';
+import db from '../assets/dashboard2.png';
+import eopss from '../assets/eopss.png';
+import blog from '../assets/blog.png';
 
 const SkillsProjectsContact = () => {
   // Skills Data
@@ -52,7 +55,7 @@ const SkillsProjectsContact = () => {
         "Docker"
       ],
       github: "https://github.com/MahithaDodda921/StudentActivityDashboard",
-      image: "/assets/dashboard2.png"
+      image: db
     },
     {
       title: "University Blogging Platform",
@@ -66,7 +69,7 @@ const SkillsProjectsContact = () => {
         "Material UI"
       ],
       github: "https://github.com/MahithaDodda921/MernBloggingApp",
-      image: "/assets/blog.png"  
+      image: blog 
     },
     {
       title: "Employee Onboarding Portal",
@@ -81,7 +84,7 @@ const SkillsProjectsContact = () => {
         "Azure DevOps"
       ],
       github: "https://github.com/MahithaDodda921/",
-      image: "/assets/eopss.png"
+      image: eopss
     }
   ];
 

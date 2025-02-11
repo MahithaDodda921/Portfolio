@@ -1,6 +1,9 @@
 import React, { useRef } from 'react';
 import { motion} from 'framer-motion';
 import {  Calendar, MapPin } from 'lucide-react';
+import vitlogo from '../assets/vitlogo.png';
+import alfa from '../assets/alfahive_logo.jpeg';
+import gm from '../assets/gmlogo.png';
 
 const experienceData = [
   {
@@ -8,7 +11,7 @@ const experienceData = [
     company: "George Mason University",
     period: "September 2024 – Present",
     location: "Fairfax, VA",
-    logo: "/assets/gmlogo.png",
+    logo: gm,
     details: [
       "Developed a cloud-native analytics platform using Next.js, FastAPI, and PostgreSQL, boosting instructor productivity by 40%.",
       "Enhanced FastAPI and PostgreSQL infrastructure to process huge number of weekly student records with sub-second query response times.",
@@ -20,7 +23,7 @@ const experienceData = [
     title: "Software Engineer",
     company: "Alfahive",
     period: "February 2022 – August 2023",
-    logo: "/assets/alfahive_logo.jpeg",
+    logo: alfa,
     location: "Bangalore, India",
     details: [
       "Spearheaded the development of a Control Assessment framework with Spring Boot and Docker, leading to a 25% reduction in development time.",
@@ -33,7 +36,7 @@ const experienceData = [
     title: "Software Engineer Intern",
     company: "Alfahive",
     period: "August 2021 – January 2022",
-    logo: "/assets/alfahive_logo.jpeg",
+    logo: alfa,
     location: "Bangalore, India",
     details: [
       "Supervised the creation of the Employee Onboarding Portal, resulting in a 60% reduction in onboarding time.",
@@ -50,7 +53,7 @@ const educationData = [
     period: "August 2023 – May 2025",
     gpa: "3.89/4.00",
     location: "Fairfax, VA, USA",
-    logo: "/assets/gmlogo.png",
+    logo: gm,
     courses: ["Software Engineering", "Analysis of Algorithms", "Cloud Computing", "Software Architecture & Design", "Artificial Intelligence"]
   },
   {
@@ -59,7 +62,7 @@ const educationData = [
     period: "July 2018 – May 2022",
     gpa: "3.9/4.00",
     location: "Amaravati, AP, India",
-    logo: "/assets/vitlogo.png",
+    logo: vitlogo,
     courses: ["Data Structures", "Object Oriented Programming", "Database Systems", "Operating Systems", "Big Data Analysis", "Computer Networks "]
   }
 ];
