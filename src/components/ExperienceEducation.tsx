@@ -20,7 +20,7 @@ const experienceData = [
     title: "Software Engineer",
     company: "Alfahive",
     period: "February 2022 – August 2023",
-    logo: "src/assets/alfahive_logo.jpeg",
+    logo: "/assets/alfahive_logo.jpeg",
     location: "Bangalore, India",
     details: [
       "Spearheaded the development of a Control Assessment framework with Spring Boot and Docker, leading to a 25% reduction in development time.",
@@ -33,7 +33,7 @@ const experienceData = [
     title: "Software Engineer Intern",
     company: "Alfahive",
     period: "August 2021 – January 2022",
-    logo: "src/assets/alfahive_logo.jpeg",
+    logo: "/assets/alfahive_logo.jpeg",
     location: "Bangalore, India",
     details: [
       "Supervised the creation of the Employee Onboarding Portal, resulting in a 60% reduction in onboarding time.",
@@ -50,7 +50,7 @@ const educationData = [
     period: "August 2023 – May 2025",
     gpa: "3.89/4.00",
     location: "Fairfax, VA, USA",
-    logo: "src/assets/gmlogo.png",
+    logo: "/assets/gmlogo.png",
     courses: ["Software Engineering", "Analysis of Algorithms", "Cloud Computing", "Software Architecture & Design", "Artificial Intelligence"]
   },
   {
@@ -59,7 +59,7 @@ const educationData = [
     period: "July 2018 – May 2022",
     gpa: "3.9/4.00",
     location: "Amaravati, AP, India",
-    logo: "src/assets/vitlogo.png",
+    logo: "/assets/vitlogo.png",
     courses: ["Data Structures", "Object Oriented Programming", "Database Systems", "Operating Systems", "Big Data Analysis", "Computer Networks "]
   }
 ];

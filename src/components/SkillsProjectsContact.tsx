@@ -52,7 +52,7 @@ const SkillsProjectsContact = () => {
         "Docker"
       ],
       github: "https://github.com/MahithaDodda921/StudentActivityDashboard",
-      image: "src/assets/dashboard2.png"
+      image: "/assets/dashboard2.png"
     },
     {
       title: "University Blogging Platform",
@@ -66,7 +66,7 @@ const SkillsProjectsContact = () => {
         "Material UI"
       ],
       github: "https://github.com/MahithaDodda921/MernBloggingApp",
-      image: "src/assets/blog.png"  
+      image: "/assets/blog.png"  
     },
     {
       title: "Employee Onboarding Portal",
@@ -81,7 +81,7 @@ const SkillsProjectsContact = () => {
         "Azure DevOps"
       ],
       github: "https://github.com/MahithaDodda921/",
-      image: "src/assets/eopss.png"
+      image: "/assets/eopss.png"
     }
   ];
 
