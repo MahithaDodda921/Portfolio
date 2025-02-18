@@ -47,10 +47,10 @@ const SkillsProjectsContact = () => {
       description: "Engineered a cloud-native analytics platform for real-time student performance tracking and early intervention, processing weekly activity records with comprehensive data privacy measures",
       technologies: [
         "Python",
-        "Next.js",
-        "FastAPI",
-        "PostgreSQL",
-        "Azure Cloud",
+        "FlaskAPI",
+        "React.js",
+        "Typescript",
+        "SQL",
         "Apache Airflow",
         "Docker"
       ],

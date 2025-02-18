@@ -13,10 +13,11 @@ const experienceData = [
     location: "Fairfax, VA",
     logo: gm,
     details: [
-      "Developed a cloud-native analytics platform using Next.js, FastAPI, and PostgreSQL, boosting instructor productivity by 40%.",
-      "Enhanced FastAPI and PostgreSQL infrastructure to process huge number of weekly student records with sub-second query response times.",
-      "Managed ETL pipelines with Apache Airflow and dbt, reducing data transformation time by 60% for real-time analytics.",
-      "Constructed interactive React dashboards with D3.js and Plotly.js, doubling the speed of identifying at-risk students."
+      "Developed robust ETL pipelines to extract and process data from REST APIs, following industry best practices such as structured logging, error handling, and modular design for maintainability.",
+      "Designed and implemented analytics scripts to evaluate student activity, identify engagement gaps, and generate actionable insights, helping instructors improve course effectiveness.",
+      "Implemented a data anonymization algorithm to protect sensitive information while maintaining data integrity for analytics and compliance.",
+      "Built a full-stack web application using Flask (backend), React with TypeScript, Tailwind CSS, and Vite (frontend), integrating interactive dashboards with Plotly.js and React Charts for data visualization.",
+      "Explored Apache Airflow for workflow automation, gaining hands-on experience in ETL orchestration and data engineering concepts."
     ]
   },
   {
@@ -27,9 +28,10 @@ const experienceData = [
     location: "Bangalore, India",
     details: [
       "Spearheaded the development of a Control Assessment framework with Spring Boot and Docker, leading to a 25% reduction in development time.",
-      "Streamlined deployment using Azure Blob Storage and background jobs, saving 80% of manual effort.",
-      "Enabled real-time communication through WebSockets and React Hooks, reducing message persistence issues by 40%.",
-      "Optimized Mongo database with advanced indexing and sharding, resulting in a 30% decrease in query response time."
+      "Automated deployments using Azure Blob Storage and background jobs, making the process smoother and reducing manual work.",
+      "Enabled real-time communication with WebSockets and React Hooks to ensure messages are delivered instantly without issues.",
+      "Optimized Mongo database with advanced indexing and sharding, resulting in a 30% decrease in query response time.",
+      "Established an API testing framework in the QA pipeline using Newman, resulting in a 25% reduction in deployment errors and enhanced system reliability by providing immediate notifications of any issues after each release."
     ]
   },
   {
@@ -39,9 +41,10 @@ const experienceData = [
     logo: alfa,
     location: "Bangalore, India",
     details: [
-      "Supervised the creation of the Employee Onboarding Portal, resulting in a 60% reduction in onboarding time.",
-      "Developed resilient RESTful APIs with Java and Spring Boot, supporting over 10,000 transactions per day.",
-      "Implemented user feedback mechanisms and designed iterative UI/UX improvements, achieving 80% user retention."
+      "Led a team in building an end-to-end Employee Onboarding Portal, streamlining the process and significantly reducing onboarding time.",
+      "Designed and developed resilient RESTful APIs with Java and Spring Boot, ensuring smooth performance for daily active users.",
+      "Explored UI/UX design with Figma, incorporating user feedback to refine the interface and improve user experience.",
+      "Refined MongoDB performance by implementing advanced indexing and query optimization, improving data retrieval efficiency, and supporting faster data access, especially during peak traffic."
     ]
   }
 ];
