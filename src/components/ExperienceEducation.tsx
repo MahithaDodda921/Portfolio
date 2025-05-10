@@ -4,20 +4,22 @@ import { Calendar, MapPin } from 'lucide-react';
 import vitlogo from '../assets/vitlogo.png';
 import alfa from '../assets/alfahive_logo.jpeg';
 import gm from '../assets/gmlogo.png';
+import apex from '../assets/apex_logo.jpg'; 
+import brain from '../assets/brain_logo.png'; 
 
 const experienceData = [
   {
-    title: "Data/Software Engineer Intern",
+    title: "Software Developer Intern",
     company: "George Mason University",
     period: "September 2024 – Present",
     location: "Fairfax, VA",
     logo: gm,
     details: [
-      "Developed robust ETL pipelines to extract and process data from REST APIs, following industry best practices such as structured logging, error handling, and modular design for maintainability.",
-      "Designed and implemented analytics scripts to evaluate student activity, identify engagement gaps, and generate actionable insights, helping instructors improve course effectiveness.",
-      "Implemented a data anonymization algorithm to protect sensitive information while maintaining data integrity for analytics and compliance.",
-      "Built a full-stack web application using Flask (backend), React with TypeScript, Tailwind CSS, and Vite (frontend), integrating interactive dashboards with Plotly.js and React Charts for data visualization.",
-      "Explored Apache Airflow for workflow automation, gaining hands-on experience in ETL orchestration and data engineering concepts."
+      "Built scalable ETL pipeline for student data that reduced API schema handling time by 90% and improved data accessibility.",
+      "Implemented automated data workflows with Prefect and GitHub Actions, cutting manual operations by 80%.",
+      "Created privacy-focused data systems with cryptographic hashing for FERPA compliance while maintaining data integrity.",
+      "Optimized database queries and storage strategy, reducing transformation time by 40% and query latency by 35%.",
+      "Developed real-time student engagement dashboard that improved faculty decision-making and reduced analysis effort by 55%."
     ]
   },
   {
@@ -27,24 +29,37 @@ const experienceData = [
     logo: alfa,
     location: "Bangalore, India",
     details: [
-      "Spearheaded the development of a Control Assessment framework with Spring Boot and Docker, leading to a 25% reduction in development time.",
-      "Automated deployments using Azure Blob Storage and background jobs, making the process smoother and reducing manual work.",
-      "Enabled real-time communication with WebSockets and React Hooks to ensure messages are delivered instantly without issues.",
-      "Optimized Mongo database with advanced indexing and sharding, resulting in a 30% decrease in query response time.",
-      "Established an API testing framework in the QA pipeline using Newman, resulting in a 25% reduction in deployment errors and enhanced system reliability by providing immediate notifications of any issues after each release."
+      "Led development of cyber risk quantification engine that translated complex risk factors into actionable scores for enterprises.",
+      "Created interactive scenario-building interfaces using React.js and Material UI that visualized potential cyber threats in real-time.",
+      "Implemented OAuth2.0 authentication system that reduced client integration time by 40% while enhancing security.",
+      "Boosted API performance by 60% through smart caching strategies for frequently requested risk scenarios.",
+      "Built automated testing pipeline that reduced deployment errors by 25% and improved overall system reliability."
     ]
   },
   {
-    title: "Software Engineer Intern",
-    company: "Alfahive",
-    period: "August 2021 – January 2022",
-    logo: alfa,
-    location: "Bangalore, India",
+    title: "Software Engineer",
+    company: "Apex Group",
+    period: "August 2020 – January 2022",
+    logo: apex,
+    location: "Hyderabad, India",
     details: [
-      "Led a team in building an end-to-end Employee Onboarding Portal, streamlining the process and significantly reducing onboarding time.",
-      "Designed and developed resilient RESTful APIs with Java and Spring Boot, ensuring smooth performance for daily active users.",
-      "Explored UI/UX design with Figma, incorporating user feedback to refine the interface and improve user experience.",
-      "Refined MongoDB performance by implementing advanced indexing and query optimization, improving data retrieval efficiency, and supporting faster data access, especially during peak traffic."
+      "Designed investment portfolio visualization dashboard that reduced reporting time by 30% and improved client experience.",
+      "Implemented real-time communication system that reduced message delivery issues by 40% in high-volume scenarios.",
+      "Created audit framework for GDPR compliance that cut audit preparation time in half while ensuring data traceability.",
+      "Built secure document management system that processed 10,000+ investor documents while maintaining SOC2 compliance.",
+      "Utilized AWS services to create scalable microservices architecture that reduced infrastructure costs by 17%."
+    ]
+  },
+  {
+    title: "Software Development Engineer Intern",
+    company: "BrainOvision Solutions",
+    period: "May 2020 – July 2020",
+    logo: brain,
+    location: "Hyderabad, India",
+    details: [
+      "Optimized API endpoints and implemented caching that reduced server load by 25% and improved response times by 40%.",
+      "Enhanced database queries with Hibernate ORM that cut search times by 15% and improved user experience.",
+      "Developed comprehensive testing framework that streamlined issue detection and improved software reliability."
     ]
   }
 ];
@@ -53,18 +68,18 @@ const educationData = [
   {
     degree: "Master of Science in Computer Science",
     institution: "George Mason University",
-    period: "August 2023 – May 2025",
+    period: "August 2023 – Present",
     gpa: "3.89/4.00",
     location: "Fairfax, VA, USA",
     logo: gm,
     courses: ["Software Engineering", "Analysis of Algorithms", "Cloud Computing", "Software Architecture & Design", "Artificial Intelligence"]
   },
   {
-    degree: "Bachelor of Technology in Computer Science",
+    degree: "Bachelor of Technology in Computer Science and Engineering",
     institution: "Vellore Institute of Technology",
-    period: "July 2018 – May 2022",
+    period: "July 2018 – June 2022",
     gpa: "3.9/4.00",
-    location: "Amaravati, AP, India",
+    location: "India",
     logo: vitlogo,
     courses: ["Data Structures", "Object Oriented Programming", "Database Systems", "Operating Systems", "Big Data Analysis", "Computer Networks"]
   }
